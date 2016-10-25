@@ -7,6 +7,7 @@ import { loadCourses } from './actions/courseActions';
 import {loadAuthors} from './actions/authorActions';
 import './styles/style.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/toastr/build/toastr.min.css';
 import configureStore from './store/configureStore';
 import { Provider } from 'react-redux';
 
